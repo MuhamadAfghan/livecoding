@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Coding - By Afghan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://raw.githubusercontent.com/MohamedAfghan/MuhamadAfghan.github.io/main/image/icon-web.png">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <section>
+                
+                <h1>Live Coding</h1>
+                <p>Create by : Muhamad Afghan Alzena</p>
+                <p class="copyright"> &copy; Muhamad Afghan Alzena, 2023</p>
+            </section>
+            <div class="line"></div>
+            <nav>
+                <div class="btn">
+                    <button id="runbtn" onclick="submitTryit(1)">Run &#10095;</button>
+                    <button id="viewcode" onclick="showCode()">view code</button>
+                    <button id="resetcode" onclick="resetCode()">Reset All Code</button>
+                    <button id="htmlCode" onclick="htmlCode()">Show HTML Code</button>
+                </div>
+            </nav>
+        </header>
+        <div id="container">
+            <div id="textareacontainer" style="height: 100%;">
+                <div id="textarea" style="height: 100%;">
+                    <div id="textareawrapper" style="height: 100%;">
+                        <textarea autocomplete="off" id="textareaCode" wrap="logical" spellcheck="false" value=""></textarea>
+                            
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+        
+            <div id="iframecontainer" style="height: 100%;">
+                <div id="iframe" style="height: 100%;">
+                    <div id="iframewrapper" style="height: 100%;"></div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+
+</html>
